@@ -1,0 +1,18 @@
+{
+  "Role": "",
+  "Rules": [
+    {
+      "Status": "Enabled",
+      "Priority": 1,
+      "DeleteMarkerReplication": {
+        "Status": "Disabled"
+      },
+      "Filter": {
+        "Prefix": "Tax"
+      },
+      "Destination": {
+        "Bucket": ""
+      }
+    }
+  ]
+}
